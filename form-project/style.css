@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: url(29.0_bg.jpg);
+    font-family: "Poppins", sans-serif;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+form {
+    background: linear-gradient(45deg, #56ab2f, #a8e063);
+    width: 450px;
+    border-radius: 10px;
+    font-weight: 300;
+    color: #fff;
+    font-size: 15px;
+    padding: 50px;
+    box-shadow: 0px 0px 30px #000;
+}
+
+h1 {
+    font-weight: 700;
+    text-align: center;
+    font-size: 37px;
+}
+
+input[type="text"], input[type="email"], select, textarea {
+    outline: none;
+    border: none;
+    background: transparent;
+    width: 100%;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.24);
+    color: #fff;
+    font-size: 15px;
+    font-family: inherit;
+    margin-bottom: 15px;
+}
+
+input:focus, textarea:focus {
+    border-bottom: 2px solid;
+}
+
+input::placeholder, textarea::placeholder {
+    color: white; /* Change this to any color you prefer */
+    opacity: 0.5;  /* Optional: ensures full opacity of the placeholder */
+  }
+
+  input[type="submit"] {
+    padding: 10px;
+    width: 220px;
+    color: #20bf7e;
+    border: 4px solid #20bf7e;
+    border-radius: 25px;
+    font-size: 17px;
+    width: 100%;
+    font-family: inherit;
+    margin-top: 15px;
+    font-weight: bold;
+  }
+
+  .options {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    margin-top: 20px;
+  }
+
+  .option {
+    background-color: #eee;
+    color: black;
+  }
+.block > *{
+    display: block;
+}

@@ -1,0 +1,40 @@
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: lightgray;
+    height: 100%;
+}
+
+h1, h2 {
+    background-color: slategrey;
+    width: 100%;
+    height: 40px;
+    font-size: 30px;
+    text-align: center;
+    margin: 2px;
+}
+
+.one, .five {
+    background-color: aquamarine;
+}
+.two, .six {
+    background-color: bisque;
+}
+.three, .seven {
+    background-color: black;
+}
+.four{
+    background-color: brown;
+}
+.news {
+    display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
+    grid-template-rows: 200px 150px;
+    gap: 10px;
+}
+
+.one{
+    grid-row: span 2;
+}
+.two{
+    grid-column: span 2;
+}
